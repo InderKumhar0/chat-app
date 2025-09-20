@@ -65,6 +65,7 @@ async function start() {
       },
     ],
     formatError: formatApolloError,
+    introspection: true,
   });
 
   await server.start();
